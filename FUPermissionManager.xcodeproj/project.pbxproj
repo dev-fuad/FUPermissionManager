@@ -12,6 +12,12 @@
 		06BC30BE1F221520003C8A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BC30BC1F221520003C8A4D /* Main.storyboard */; };
 		06BC30C01F221520003C8A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BC30BF1F221520003C8A4D /* Assets.xcassets */; };
 		06BC30C31F221520003C8A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BC30C11F221520003C8A4D /* LaunchScreen.storyboard */; };
+		06BC30D01F22152F003C8A4D /* FUDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC30CB1F22152F003C8A4D /* FUDataStructures.swift */; };
+		06BC30D11F22152F003C8A4D /* FUPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC30CC1F22152F003C8A4D /* FUPermissionManager.swift */; };
+		06BC30D21F22152F003C8A4D /* FUPermissions+Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC30CD1F22152F003C8A4D /* FUPermissions+Status.swift */; };
+		06BC30D31F22152F003C8A4D /* FUPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC30CE1F22152F003C8A4D /* FUPermissions.swift */; };
+		06BC30D41F22152F003C8A4D /* LocaitonPermissionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC30CF1F22152F003C8A4D /* LocaitonPermissionHandler.swift */; };
+		06CA26B51F39854700C43EB4 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA26B41F39854700C43EB4 /* GradientColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		06BC30BF1F221520003C8A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BC30C21F221520003C8A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BC30C41F221520003C8A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BC30CB1F22152F003C8A4D /* FUDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUDataStructures.swift; sourceTree = "<group>"; };
+		06BC30CC1F22152F003C8A4D /* FUPermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUPermissionManager.swift; sourceTree = "<group>"; };
+		06BC30CD1F22152F003C8A4D /* FUPermissions+Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FUPermissions+Status.swift"; sourceTree = "<group>"; };
+		06BC30CE1F22152F003C8A4D /* FUPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUPermissions.swift; sourceTree = "<group>"; };
+		06BC30CF1F22152F003C8A4D /* LocaitonPermissionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaitonPermissionHandler.swift; sourceTree = "<group>"; };
+		06CA26B41F39854700C43EB4 /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,26 @@
 		06BC30B71F221520003C8A4D /* FUPermissionManager */ = {
 			isa = PBXGroup;
 			children = (
+				06BC30CA1F22152F003C8A4D /* FUPermissionManager */,
 				06BC30B81F221520003C8A4D /* AppDelegate.swift */,
+				06CA26B41F39854700C43EB4 /* GradientColor.swift */,
 				06BC30BA1F221520003C8A4D /* ViewController.swift */,
 				06BC30BC1F221520003C8A4D /* Main.storyboard */,
 				06BC30BF1F221520003C8A4D /* Assets.xcassets */,
 				06BC30C11F221520003C8A4D /* LaunchScreen.storyboard */,
 				06BC30C41F221520003C8A4D /* Info.plist */,
+			);
+			path = FUPermissionManager;
+			sourceTree = "<group>";
+		};
+		06BC30CA1F22152F003C8A4D /* FUPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				06BC30CB1F22152F003C8A4D /* FUDataStructures.swift */,
+				06BC30CC1F22152F003C8A4D /* FUPermissionManager.swift */,
+				06BC30CD1F22152F003C8A4D /* FUPermissions+Status.swift */,
+				06BC30CE1F22152F003C8A4D /* FUPermissions.swift */,
+				06BC30CF1F22152F003C8A4D /* LocaitonPermissionHandler.swift */,
 			);
 			path = FUPermissionManager;
 			sourceTree = "<group>";
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BC30D21F22152F003C8A4D /* FUPermissions+Status.swift in Sources */,
+				06BC30D41F22152F003C8A4D /* LocaitonPermissionHandler.swift in Sources */,
+				06BC30D31F22152F003C8A4D /* FUPermissions.swift in Sources */,
+				06CA26B51F39854700C43EB4 /* GradientColor.swift in Sources */,
 				06BC30BB1F221520003C8A4D /* ViewController.swift in Sources */,
+				06BC30D01F22152F003C8A4D /* FUDataStructures.swift in Sources */,
 				06BC30B91F221520003C8A4D /* AppDelegate.swift in Sources */,
+				06BC30D11F22152F003C8A4D /* FUPermissionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7VGW836NJ;
 				INFOPLIST_FILE = FUPermissionManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuad.FUPermissionManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7VGW836NJ;
 				INFOPLIST_FILE = FUPermissionManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuad.FUPermissionManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +336,7 @@
 				06BC30C91F221520003C8A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
